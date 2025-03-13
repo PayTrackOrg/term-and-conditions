@@ -214,7 +214,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+        <Route path="/" element={<TermsAndConditions />} />
       </Routes>
     </Router>
   );
